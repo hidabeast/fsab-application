@@ -1,0 +1,126 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/john_rathgeber/.nvm/v0.8.28/bin/node',
+1 verbose cli   '/home/john_rathgeber/.nvm/v0.8.28/bin/npm',
+1 verbose cli   'i' ]
+2 info using npm@1.2.30
+3 info using node@v0.8.28
+4 verbose read json /mnt/c/Users/johnd/fsab/fsab-application/backend/package.json
+5 warn package.json @ No repository field.
+6 warn package.json @ No readme data.
+7 verbose readDependencies using package.json deps
+8 verbose install where, deps [ '/mnt/c/Users/johnd/fsab/fsab-application/backend',
+8 verbose install   [ 'firebase' ] ]
+9 verbose from cache /mnt/c/Users/johnd/fsab/fsab-application/backend/package.json
+10 info preinstall @
+11 verbose read json /mnt/c/Users/johnd/fsab/fsab-application/backend/node_modules/@firebase/package.json
+12 verbose read json /mnt/c/Users/johnd/fsab/fsab-application/backend/node_modules/@grpc/package.json
+13 verbose read json /mnt/c/Users/johnd/fsab/fsab-application/backend/node_modules/@protobufjs/package.json
+14 verbose read json /mnt/c/Users/johnd/fsab/fsab-application/backend/node_modules/@types/package.json
+15 verbose read json /mnt/c/Users/johnd/fsab/fsab-application/backend/node_modules/ansi-regex/package.json
+16 verbose read json /mnt/c/Users/johnd/fsab/fsab-application/backend/node_modules/ansi-styles/package.json
+17 verbose read json /mnt/c/Users/johnd/fsab/fsab-application/backend/node_modules/cliui/package.json
+18 verbose read json /mnt/c/Users/johnd/fsab/fsab-application/backend/node_modules/color-convert/package.json
+19 verbose read json /mnt/c/Users/johnd/fsab/fsab-application/backend/node_modules/color-name/package.json
+20 verbose read json /mnt/c/Users/johnd/fsab/fsab-application/backend/node_modules/emoji-regex/package.json
+21 verbose read json /mnt/c/Users/johnd/fsab/fsab-application/backend/node_modules/escalade/package.json
+22 verbose read json /mnt/c/Users/johnd/fsab/fsab-application/backend/node_modules/faye-websocket/package.json
+23 verbose read json /mnt/c/Users/johnd/fsab/fsab-application/backend/node_modules/firebase/package.json
+24 verbose read json /mnt/c/Users/johnd/fsab/fsab-application/backend/node_modules/get-caller-file/package.json
+25 verbose read json /mnt/c/Users/johnd/fsab/fsab-application/backend/node_modules/http-parser-js/package.json
+26 verbose read json /mnt/c/Users/johnd/fsab/fsab-application/backend/node_modules/idb/package.json
+27 verbose read json /mnt/c/Users/johnd/fsab/fsab-application/backend/node_modules/is-fullwidth-code-point/package.json
+28 verbose read json /mnt/c/Users/johnd/fsab/fsab-application/backend/node_modules/lodash.camelcase/package.json
+29 verbose read json /mnt/c/Users/johnd/fsab/fsab-application/backend/node_modules/long/package.json
+30 verbose read json /mnt/c/Users/johnd/fsab/fsab-application/backend/node_modules/protobufjs/package.json
+31 verbose read json /mnt/c/Users/johnd/fsab/fsab-application/backend/node_modules/require-directory/package.json
+32 verbose read json /mnt/c/Users/johnd/fsab/fsab-application/backend/node_modules/safe-buffer/package.json
+33 verbose read json /mnt/c/Users/johnd/fsab/fsab-application/backend/node_modules/string-width/package.json
+34 verbose read json /mnt/c/Users/johnd/fsab/fsab-application/backend/node_modules/strip-ansi/package.json
+35 verbose read json /mnt/c/Users/johnd/fsab/fsab-application/backend/node_modules/tslib/package.json
+36 verbose read json /mnt/c/Users/johnd/fsab/fsab-application/backend/node_modules/undici/package.json
+37 verbose read json /mnt/c/Users/johnd/fsab/fsab-application/backend/node_modules/undici-types/package.json
+38 verbose read json /mnt/c/Users/johnd/fsab/fsab-application/backend/node_modules/websocket-driver/package.json
+39 verbose read json /mnt/c/Users/johnd/fsab/fsab-application/backend/node_modules/websocket-extensions/package.json
+40 verbose read json /mnt/c/Users/johnd/fsab/fsab-application/backend/node_modules/wrap-ansi/package.json
+41 verbose read json /mnt/c/Users/johnd/fsab/fsab-application/backend/node_modules/y18n/package.json
+42 verbose read json /mnt/c/Users/johnd/fsab/fsab-application/backend/node_modules/yargs/package.json
+43 verbose read json /mnt/c/Users/johnd/fsab/fsab-application/backend/node_modules/yargs-parser/package.json
+44 verbose from cache /mnt/c/Users/johnd/fsab/fsab-application/backend/package.json
+45 verbose readDependencies using package.json deps
+46 verbose read json /mnt/c/Users/johnd/fsab/fsab-application/backend/node_modules/@firebase/package.json
+47 verbose read json /mnt/c/Users/johnd/fsab/fsab-application/backend/node_modules/@grpc/package.json
+48 verbose read json /mnt/c/Users/johnd/fsab/fsab-application/backend/node_modules/@protobufjs/package.json
+49 verbose read json /mnt/c/Users/johnd/fsab/fsab-application/backend/node_modules/@types/package.json
+50 verbose from cache /mnt/c/Users/johnd/fsab/fsab-application/backend/node_modules/ansi-regex/package.json
+51 verbose from cache /mnt/c/Users/johnd/fsab/fsab-application/backend/node_modules/ansi-styles/package.json
+52 verbose from cache /mnt/c/Users/johnd/fsab/fsab-application/backend/node_modules/cliui/package.json
+53 verbose from cache /mnt/c/Users/johnd/fsab/fsab-application/backend/node_modules/color-convert/package.json
+54 verbose from cache /mnt/c/Users/johnd/fsab/fsab-application/backend/node_modules/color-name/package.json
+55 verbose from cache /mnt/c/Users/johnd/fsab/fsab-application/backend/node_modules/emoji-regex/package.json
+56 verbose from cache /mnt/c/Users/johnd/fsab/fsab-application/backend/node_modules/escalade/package.json
+57 verbose from cache /mnt/c/Users/johnd/fsab/fsab-application/backend/node_modules/faye-websocket/package.json
+58 verbose from cache /mnt/c/Users/johnd/fsab/fsab-application/backend/node_modules/firebase/package.json
+59 verbose from cache /mnt/c/Users/johnd/fsab/fsab-application/backend/node_modules/get-caller-file/package.json
+60 verbose from cache /mnt/c/Users/johnd/fsab/fsab-application/backend/node_modules/http-parser-js/package.json
+61 verbose from cache /mnt/c/Users/johnd/fsab/fsab-application/backend/node_modules/idb/package.json
+62 verbose from cache /mnt/c/Users/johnd/fsab/fsab-application/backend/node_modules/is-fullwidth-code-point/package.json
+63 verbose from cache /mnt/c/Users/johnd/fsab/fsab-application/backend/node_modules/lodash.camelcase/package.json
+64 verbose from cache /mnt/c/Users/johnd/fsab/fsab-application/backend/node_modules/long/package.json
+65 verbose from cache /mnt/c/Users/johnd/fsab/fsab-application/backend/node_modules/protobufjs/package.json
+66 verbose from cache /mnt/c/Users/johnd/fsab/fsab-application/backend/node_modules/require-directory/package.json
+67 verbose from cache /mnt/c/Users/johnd/fsab/fsab-application/backend/node_modules/safe-buffer/package.json
+68 verbose from cache /mnt/c/Users/johnd/fsab/fsab-application/backend/node_modules/string-width/package.json
+69 verbose from cache /mnt/c/Users/johnd/fsab/fsab-application/backend/node_modules/strip-ansi/package.json
+70 verbose from cache /mnt/c/Users/johnd/fsab/fsab-application/backend/node_modules/tslib/package.json
+71 verbose from cache /mnt/c/Users/johnd/fsab/fsab-application/backend/node_modules/undici/package.json
+72 verbose from cache /mnt/c/Users/johnd/fsab/fsab-application/backend/node_modules/undici-types/package.json
+73 verbose from cache /mnt/c/Users/johnd/fsab/fsab-application/backend/node_modules/websocket-driver/package.json
+74 verbose from cache /mnt/c/Users/johnd/fsab/fsab-application/backend/node_modules/websocket-extensions/package.json
+75 verbose from cache /mnt/c/Users/johnd/fsab/fsab-application/backend/node_modules/wrap-ansi/package.json
+76 verbose from cache /mnt/c/Users/johnd/fsab/fsab-application/backend/node_modules/y18n/package.json
+77 verbose from cache /mnt/c/Users/johnd/fsab/fsab-application/backend/node_modules/yargs/package.json
+78 verbose from cache /mnt/c/Users/johnd/fsab/fsab-application/backend/node_modules/yargs-parser/package.json
+79 verbose cache add [ 'firebase@^10.13.1', null ]
+80 verbose cache add name=undefined spec="firebase@^10.13.1" args=["firebase@^10.13.1",null]
+81 verbose parsed url { pathname: 'firebase@^10.13.1',
+81 verbose parsed url   path: 'firebase@^10.13.1',
+81 verbose parsed url   href: 'firebase@^10.13.1' }
+82 verbose cache add name="firebase" spec="^10.13.1" args=["firebase","^10.13.1"]
+83 verbose parsed url { pathname: '^10.13.1', path: '^10.13.1', href: '^10.13.1' }
+84 verbose addNamed [ 'firebase', '^10.13.1' ]
+85 verbose addNamed [ null, null ]
+86 silly lockFile 02215c99-firebase-10-13-1 firebase@^10.13.1
+87 verbose lock firebase@^10.13.1 /home/john_rathgeber/.npm/02215c99-firebase-10-13-1.lock
+88 info addNameTag [ 'firebase', '^10.13.1' ]
+89 verbose url raw firebase
+90 verbose url resolving [ 'https://registry.npmjs.org/', './firebase' ]
+91 verbose url resolved https://registry.npmjs.org/firebase
+92 info trying registry request attempt 1 at 00:36:14
+93 http GET https://registry.npmjs.org/firebase
+94 info retry will retry, error on last attempt: Error: 139729474795328:error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version:../deps/openssl/openssl/ssl/s23_clnt.c:658:
+95 info trying registry request attempt 2 at 00:36:24
+96 http GET https://registry.npmjs.org/firebase
+97 info retry will retry, error on last attempt: Error: 139729474795328:error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version:../deps/openssl/openssl/ssl/s23_clnt.c:658:
+98 info trying registry request attempt 3 at 00:37:24
+99 http GET https://registry.npmjs.org/firebase
+100 silly lockFile 02215c99-firebase-10-13-1 firebase@^10.13.1
+101 silly lockFile 02215c99-firebase-10-13-1 firebase@^10.13.1
+102 error Error: 139729474795328:error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version:../deps/openssl/openssl/ssl/s23_clnt.c:658:
+102 error
+102 error     at CleartextStream._puller (tls.js:670:24)
+102 error     at CleartextStream.CryptoStream._pull (tls.js:604:19)
+102 error     at SecurePair.cycle (tls.js:894:20)
+102 error     at EncryptedStream.CryptoStream.write (tls.js:285:13)
+102 error     at Socket.ondata (stream.js:38:26)
+102 error     at Socket.EventEmitter.emit (events.js:96:17)
+102 error     at TCP.onread (net.js:397:14)
+103 error If you need help, you may report this log at:
+103 error     <http://github.com/isaacs/npm/issues>
+103 error or email it to:
+103 error     <npm-@googlegroups.com>
+104 error System Linux 5.15.133.1-microsoft-standard-WSL2
+105 error command "/home/john_rathgeber/.nvm/v0.8.28/bin/node" "/home/john_rathgeber/.nvm/v0.8.28/bin/npm" "i"
+106 error cwd /mnt/c/Users/johnd/fsab/fsab-application/backend
+107 error node -v v0.8.28
+108 error npm -v 1.2.30
+109 verbose exit [ 1, true ]

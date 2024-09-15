@@ -1,0 +1,20 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "- Checkout to the branch of your choosing with `git checkout <branchName>` followed by `git pull`. If you're switching to a new branch, run `npm i`. To run the backend, run `npm start`. \r - Branch options:\r     - `main` (default): Has almost nothing done for you, just the `.gitignore` file which helps you avoid committing files you don't want to!\r     - `express-boilerplate`: Sets up express for you. \r     - `firebase-template`: Sets up firebase for you, almost. You must navigate to `util/FirebaseInit.js` and replace the configuration values with the ones found in your Firebase Project settings. See the handout for more info!\r     - `complete`: The completed (most up-to-date) code, for your reference.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "firebase": "^10.13.1",
+    "firebase-admin": "^12.5.0"
+  }
+}
